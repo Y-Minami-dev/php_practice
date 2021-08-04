@@ -96,7 +96,7 @@ echo"課題1";
 echo"\n";
 
 $name = "Yusuke Honkawa";
-if ($name = "Yusuke Honkawa"){
+if ($name == "Yusuke Honkawa"){
     echo "私は" .$name ."です。";
 } else {
     echo "私は" .$name ."ではありません。";
@@ -109,7 +109,7 @@ echo"\n";
 echo"課題2";
 echo"\n";
 
-for($i = 1; $i < 10000; $i++){
+for($i = 1; $i <= 10000; $i++){
   $total += $i;  
 }
 echo $total;
@@ -125,7 +125,6 @@ $fruits = array("apple","orange","banana","grape","strawberry");
 foreach($fruits as $fruit){
     echo $fruit;
     echo"\n";
-
 }
 
 echo"\n";
@@ -138,7 +137,7 @@ echo"\n";
 /* for文の始めの値を定義する */
 $start = 1;
 /* for文の終わりの値を定義する */
-$end = 100;
+$end = 105;
 
 for($i = $start; $i < $end; $i++){
 

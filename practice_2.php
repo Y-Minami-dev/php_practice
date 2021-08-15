@@ -147,3 +147,33 @@ for($i = $start; $i < $end; $i++){
     echo"\n";
   }
 }
+
+// Your code here!
+class Person{
+    public $first_name;
+    public $last_name;
+    
+    public function __construct($aaa, $bbb){
+        $this->first_name = $aaa;
+        $this->last_name = $bbb;
+    }
+    
+    
+}
+
+/*class Hero extends Person{
+    
+}
+
+$hoge1 = new Person("Taro","Sasaki");
+$hoge2 = new Person("Jiro","Suzuki");
+
+echo $hoge1->get_full_name();
+echo "\n";
+echo $hoge2->get_full_name();
+echo "\n";
+
+$hoge2->last_name = "Sato";
+echo $hoge2->get_full_name();*/
+
+?>
